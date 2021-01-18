@@ -1,0 +1,29 @@
+@import "reset";
+@import "variables";
+@import"new_calling";
+@import "header";
+
+
+.App-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    .div-signature{
+        display: flex;
+        justify-content: space-between;
+        height:10rem;
+        div{
+            margin-right: 2rem;
+        }
+    }
+    .NandA_Input{
+        width: 45rem;
+        height: 10rem;
+
+    }
+    .div-Obesrvations{
+        width: 45rem;
+        height: 25rem;
+    }
+   
+}

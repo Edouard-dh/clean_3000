@@ -1,0 +1,20 @@
+@import "variables";
+
+
+.App-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: $primary_color;
+    color: $quinary_color;
+    .App-header-logo{
+        
+        img{
+            height:14vh;
+        };
+    };
+    .App-header-text{
+        align-self: center;
+
+    }
+};
+
